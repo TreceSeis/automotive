@@ -29,7 +29,6 @@ require("./config/passport")(passport);
 app.use("/api/users", users);
 app.use("/api/profile", profile);
 app.use("/api/company", company);
-app.use("/api/job", job);
 
 //Server static assests if in production
 if (process.env.NODE_ENV === "production") {
