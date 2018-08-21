@@ -137,8 +137,8 @@ router.get(
 router.get(
   "/auth/facebook/callback",
   passport.authenticate("facebook", {
-    successRedirect: "/profile",
-    failureRedirect: "/"
+    successRedirect: "/",
+    failureRedirect: "/login"
   })
 );
 
@@ -156,5 +156,21 @@ function isLoggedIn(req, res, next) {
   // if they aren't redirect them to the home page
   res.redirect("/");
 }
+
+//G
+router.get(
+  "/auth/google",
+  passport.authenticate("google", {
+    scope: ["profile", "email"]
+  })
+);
+
+router.get(
+  "/auth/google/callback",
+  passport.authenticate("google"),
+  (req, res) => {
+    res.redirect("/");
+  }
+);
 
 module.exports = router;

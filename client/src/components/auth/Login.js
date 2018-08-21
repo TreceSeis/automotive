@@ -78,14 +78,21 @@ class Login extends Component {
                         </span>
                         <span className="btn-inner--text">Github</span>
                       </a>
-                      <a href="" className="btn btn-neutral btn-icon">
+                      <a
+                        href={"/auth/google"}
+                        className="btn btn-neutral btn-icon"
+                      >
                         <span className="btn-inner--icon">
                           <i className="fab fa-google" />
                         </span>
                         <span className="btn-inner--text">Google</span>
                       </a>
-                      <a href="/auth/facebook" class="btn btn-primary">
-                        <span class="fa fa-facebook" /> Facebook
+                      <a
+                        href={"/auth/facebook"}
+                        className="btn btn-neutral btn-icon"
+                      >
+                        <span className="fab fa-facebook btn-inner--text" />{" "}
+                        Facebook
                       </a>
                     </div>
                   </div>

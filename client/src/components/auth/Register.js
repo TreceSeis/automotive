@@ -73,15 +73,21 @@ class Register extends Component {
                         </span>
                         <span className="btn-inner--text">GitHub</span>
                       </Link>
-                      <Link to="/" className="btn btn-neutral btn-icon">
+                      <a
+                        href={"/auth/google"}
+                        className="btn btn-neutral btn-icon"
+                      >
                         <span className="btn-inner--icon">
                           <i className="fab fa-google" />
                         </span>
                         <span className="btn-inner--text">Google</span>
-                      </Link>
-                      <Link to="/auth/facebook" class="btn btn-primary">
-                        <span class="fa fa-facebook" /> Facebook
-                      </Link>
+                      </a>
+                      <a
+                        href={"/auth/facebook"}
+                        className="btn btn-neutral btn-icon"
+                      >
+                        <span className="fab fa-facebook" /> Facebook
+                      </a>
                     </div>
                   </div>
                   <div className="card-body px-lg-5 py-lg-5">
