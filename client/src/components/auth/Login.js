@@ -84,6 +84,9 @@ class Login extends Component {
                         </span>
                         <span className="btn-inner--text">Google</span>
                       </a>
+                      <a href="/auth/facebook" class="btn btn-primary">
+                        <span class="fa fa-facebook" /> Facebook
+                      </a>
                     </div>
                   </div>
                   <div className="card-body px-lg-5 py-lg-5">

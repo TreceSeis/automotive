@@ -79,6 +79,9 @@ class Register extends Component {
                         </span>
                         <span className="btn-inner--text">Google</span>
                       </Link>
+                      <Link to="/auth/facebook" class="btn btn-primary">
+                        <span class="fa fa-facebook" /> Facebook
+                      </Link>
                     </div>
                   </div>
                   <div className="card-body px-lg-5 py-lg-5">
