@@ -79,8 +79,14 @@ class Register extends Component {
                         </span>
                         <span className="btn-inner--text">Google</span>
                       </Link>
-                      <Link to="/auth/facebook" class="btn btn-primary">
-                        <span class="fa fa-facebook" /> Facebook
+                      <Link
+                        to="/auth/facebook"
+                        className="btn btn-neutral btn-icon"
+                      >
+                        <span className="btn-inner--icon">
+                          <i className="fab fa-facebook" />
+                        </span>
+                        <span className="btn-inner--text">Facebook</span>
                       </Link>
                     </div>
                   </div>

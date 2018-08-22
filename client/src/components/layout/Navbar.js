@@ -52,7 +52,7 @@ class Navbar extends Component {
       <header className="header-global">
         <nav
           id="navbar-main"
-          className="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light"
+          className="navbar navbar-main navbar-expand-lg navbar-dark"
         >
           <div className="container">
             <Link className="navbar-brand mr-lg-5" to="/">
