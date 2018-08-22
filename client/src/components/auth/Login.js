@@ -84,8 +84,14 @@ class Login extends Component {
                         </span>
                         <span className="btn-inner--text">Google</span>
                       </a>
-                      <a href="/auth/facebook" class="btn btn-primary">
-                        <span class="fa fa-facebook" /> Facebook
+                      <a
+                        href="/auth/facebook"
+                        className="btn btn-neutral btn-icon"
+                      >
+                        <span className="btn-inner--icon">
+                          <i className="fab fa-facebook" />
+                        </span>
+                        <span className="btn-inner--text">Facebook</span>
                       </a>
                     </div>
                   </div>
