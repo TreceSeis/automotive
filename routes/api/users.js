@@ -126,7 +126,7 @@ router.get(
 // FACEBOOK ROUTES =====================
 // =====================================
 // route for facebook authentication and login
-router.get(
+router.post(
   "/auth/facebook",
   passport.authenticate("facebook", {
     scope: ["public_profile", "email"]
@@ -134,7 +134,7 @@ router.get(
 );
 
 // handle the callback after facebook has authenticated the user
-router.get(
+router.post(
   "/auth/facebook/callback",
   passport.authenticate("facebook", {
     successRedirect: "/profile",
