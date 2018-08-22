@@ -81,7 +81,7 @@ class Register extends Component {
                       </Link>
                       <Link
                         to="/auth/facebook"
-                        class="btn btn-neutral btn-icon"
+                        className="btn btn-neutral btn-icon"
                       >
                         <span className="btn-inner--icon">
                           <i className="fab fa-facebook" />
