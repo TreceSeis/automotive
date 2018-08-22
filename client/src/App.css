@@ -5244,7 +5244,7 @@ input[type='button'].btn-block
 .navbar
 {
     position: relative;
-
+    background-color:#6150A6;
     display: flex;
 
     padding: .5rem 1rem; 
