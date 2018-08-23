@@ -13,8 +13,7 @@ module.exports = {
     clientSecret: "KnH-rZC23z4fr2CN4ISK4srN",
     callbackURL: "http://localhost:8080/auth/facebook/callback"
   },
-  mongoURI:
-    "mongodb://abarbosa:adrian100@ds137601.mlab.com:37601/automotiveadrian",
+  mongoURI: "mongodb://abarbosa:adrian100@@ds141631.mlab.com:41631/chachara",
   secretOrKey: "secret"
 };
 if (process.env.NODE_ENV === "production") {
