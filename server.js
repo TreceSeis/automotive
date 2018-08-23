@@ -5,8 +5,7 @@ const passport = require("passport");
 const path = require("path");
 
 const users = require("./routes/api/users");
-const profile = require("./routes/api/profile");
-const company = require("./routes/api/company");
+const profile = require("./routes/api/posts");
 const app = express();
 
 //Body parser middleware
@@ -27,8 +26,7 @@ require("./config/passport")(passport);
 
 // Use Routes
 app.use("/api/users", users);
-app.use("/api/profile", profile);
-app.use("/api/company", company);
+app.use("/api/jobs", jobs);
 
 //Server static assests if in production
 if (process.env.NODE_ENV === "production") {
