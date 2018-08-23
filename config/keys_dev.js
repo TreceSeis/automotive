@@ -8,7 +8,6 @@ module.exports = {
   googleClientID:
     "964808011168-29vqsooppd769hk90kjbjm5gld0glssb.apps.googleusercontent.com",
   googleClientSecret: "KnH-rZC23z4fr2CN4ISK4srN",
-  mongoURI:
-    "mongodb://abarbosa:adrian100@ds137601.mlab.com:37601/automotiveadrian",
+  mongoURI: "mongodb://abarbosa:adrian100@ds137601.mlab.com:37601/chachara",
   secretOrKey: "secret"
 };
