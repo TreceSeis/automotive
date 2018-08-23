@@ -7,6 +7,6 @@ module.exports = {
       "https://graph.facebook.com/v2.5/me?fields=first_name,last_name,email",
     profileFields: ["id", "email", "name"] // For requesting permissions from Facebook API
   },
-  mongoURI: "mongodb://abarbosa:adrian100@ds137601.mlab.com:37601/chachara",
+  mongoURI: "mongodb://abarbosa:adrian100@ds141631.mlab.com:41631/chachara",
   secretOrKey: "secret"
 };
