@@ -74,7 +74,7 @@ class Register extends Component {
                         <span className="btn-inner--text">GitHub</span>
                       </Link>
                       <a
-                        href={"/auth/google"}
+                        href="/auth/google"
                         className="btn btn-neutral btn-icon"
                       >
                         <span className="btn-inner--icon">

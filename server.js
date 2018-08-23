@@ -22,11 +22,11 @@ mongoose
   .catch(err => console.log(err));
 
 //Passport Config
-require("./config/passport")(passport);
+// require("./config/passport")(passport);
+require("./config/passport");
 
 // Use Routes
 app.use("/api/users", users);
-app.use("/api/jobs", jobs);
 
 //Server static assests if in production
 if (process.env.NODE_ENV === "production") {

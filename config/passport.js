@@ -1,9 +1,10 @@
-const passport = require("passport");
 const mongoose = require("mongoose");
+// const User = mongoose.model("User");
+const User = require("../models/User");
+const passport = require("passport");
+
 const keys = require("../config/keys");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
-
-const User = mongoose.model("User");
 
 passport.serializeUser((user, done) => {
   done(null, user.id);
